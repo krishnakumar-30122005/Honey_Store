@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0e0e0e;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
+
+.shop-section {
+  padding: 50px 40px;
+  text-align: center;
+}
+
+.shop-section h3 {
+  color: orange;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.shop-section h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.card-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 40px; /* spacing between cards */
+  scroll-snap-type: x mandatory;
+  padding: 30px 20px;
+}
+
+.product-card {
+  flex: 0 0 auto;
+  width: 320px; /* increased width */
+  height: 440px; /* increased height */
+  background-color: #1a1a1a;
+  border-radius: 20px;
+  padding: 30px;
+  text-align: left;
+  scroll-snap-align: start;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-6px);
+}
+
+.product-card img {
+  width: 100%;
+  height: 220px; /* taller image */
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.product-card h3 {
+  font-size: 1.4rem;
+  color: orange;
+  margin-bottom: 12px;
+}
+
+.product-card p {
+  font-size: 1rem;
+  color: #ccc;
+  margin-bottom: 15px;
+}
+
+.price-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+}
+
+.price-btn span {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.price-btn button {
+  padding: 10px 16px;
+  background-color: orange;
+  color: #000;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.card-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.card-container::-webkit-scrollbar-thumb {
+  background-color: #555;
+  border-radius: 4px;
+}
