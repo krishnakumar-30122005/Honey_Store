@@ -1,217 +1,386 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Honey Website Design</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Honey Website Design</title>
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="styles.css" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css" />
 
-  <!-- Box Icons -->
-  <link
-    rel="stylesheet"
-    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
-  />
+    <!-- Box Icons -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
 
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link
-    rel="preconnect"
-    href="https://fonts.gstatic.com"
-    crossorigin
-  />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet"
-  />
-</head>
-<body>
-  <!-- Header -->
-  <header>
-    <a href="#" class="logo"><i class="bx bxs-home"></i>Honey</a>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-    <ul class="navlist" id="navlist">
-      <li><a href="#home" class="active">Home</a></li>
-      <li><a href="#shop">Our Shop</a></li>
-      <li><a href="#review">Our Customer</a></li>
-    </ul>
+  <body>
+    <!-- Header -->
+    <header>
+      <a href="#" class="logo"><i class="bx bxs-home"></i>Honey</a>
 
-    <div class="nav-icons">
-      <a href="#"><i class="bx bx-search"></i></a>
-      <a href="#"><i class="bx bx-cart"></i></a>
-      <div class="bx bx-menu" id="menu-icon"></div>
-    </div>
-  </header>
-
-  <!-- Home Section -->
-  <section class="home" id="home">
-    <div class="home-text">
-      <h1>WELCOME <span>TO OUR</span> HONEY<br />FARM</h1>
-
-      <a href="#shop" class="btn2">Order Now</a>
-    </div>
-
-    <div class="home-img">
-      <img src="assets/p1.jpeg" alt="Honey Farm" />
-    </div>
-  </section>
-
-   <!-- Shop section-->
-
-  <section class="shop" id="shop">
-    <div class="middle-text">
-      <h4>Our Shop</h4>
-      <h2>Let's Check Popular Products</h2>
-    </div>
-<div class="shop-content horizontal-scroll">
-    <div class="shop-content">
-      <!-- Repeated Product Cards -->
-     <div class="row">
-  <div class="inside_img">
-    <img src="assets/buleH.png" alt="Lavender Honey" />
-  </div>
-  <h3>Lavender Honey</h3>
-  <p>Infused with the calming aroma of lavender.</p>
-  <div class="in-text">
-    <div class="price"><h6>499.00</h6></div>
-    <div class="s-btnn"><a href="#">Add to Cart</a></div>
-  </div>
-  <div class="top-icon"><a href="#"><i class="bx bxs-heart"></i></a></div>
-</div>
-
-<div class="row">
-  <div class="inside_img">
-    <img src="assets/forest.png" alt="Forest Honey" />
-  </div>
-  <h3>Forest Honey</h3>
-  <p>Harvested from deep forests with wildflowers.</p>
-  <div class="in-text">
-    <div class="price"><h6>549.00</h6></div>
-    <div class="s-btnn"><a href="#">Add to Cart</a></div>
-  </div>
-  <div class="top-icon"><a href="#"><i class="bx bxs-heart"></i></a></div>
-</div>
-
-<div class="row">
-  <div class="inside_img">
-    <img src="assets/organic.png" alt="Organic Honey" />
-  </div>
-  <h3>Organic Honey</h3>
-  <p>Pure organic honey with no preservatives.</p>
-  <div class="in-text">
-    <div class="price"><h6>599.00</h6></div>
-    <div class="s-btnn"><a href="#">Add to Cart</a></div>
-  </div>
-  <div class="top-icon"><a href="#"><i class="bx bxs-heart"></i></a></div>
-</div>
-<div class="row">
-  <div class="inside_img">
-    <img src="assets/organic.png" alt="Organic Honey" />
-  </div>
-  <h3>Organic Honey</h3>
-  <p>Pure organic honey with no preservatives.</p>
-  <div class="in-text">
-    <div class="price"><h6>599.00</h6></div>
-    <div class="s-btnn"><a href="#">Add to Cart</a></div>
-  </div>
-  <div class="top-icon"><a href="#"><i class="bx bxs-heart"></i></a></div>
-</div>
-<div class="row">
-  <div class="inside_img">
-    <img src="assets/organic.png" alt="Organic Honey" />
-  </div>
-  <h3>Organic Honey</h3>
-  <p>Pure organic honey with no preservatives.</p>
-  <div class="in-text">
-    <div class="price"><h6>599.00</h6></div>
-    <div class="s-btnn"><a href="#">Add to Cart</a></div>
-  </div>
-  <div class="top-icon"><a href="#"><i class="bx bxs-heart"></i></a></div>
-</div>
-<div class="row">
-  <div class="inside_img">
-    <img src="assets/organic.png" alt="Organic Honey" />
-  </div>
-  <h3>Organic Honey</h3>
-  <p>Pure organic honey with no preservatives.</p>
-  <div class="in-text">
-    <div class="price"><h6>599.00</h6></div>
-    <div class="s-btnn"><a href="#">Add to Cart</a></div>
-  </div>
-  <div class="top-icon"><a href="#"><i class="bx bxs-heart"></i></a></div>
-</div>
-
-</div>
-
-    <div class="row-btn">
-      <a href="#" class="btn">All Products<i class="bx bxs-right-arrow"></i></a>
-    </div>
-  </section>
-
-  <!-- Container -->
-  <section class="container">
-    <div class="container-box">
-      <img src="assets/clock.png" alt="Working Hours" />
-      <h3>9:00 AM - 8:30 PM</h3>
-      <a href="#">Working Hours</a>
-    </div>
-  </section>
-
-  <!-- About Us (Benefits) -->
-  <section class="about" id="about">
-    <div class="about-img">
-      <img src="assets/p2.jpeg" alt="Honey Benefits" />
-    </div>
-    <div class="about-text">
-      <h2>Honey And <br />Its Benefits</h2>
-      <p>
-        Honey is nature’s gift to mankind! A luscious liquid with a golden hue
-        and bitter-sweet taste, it brings numerous health benefits in a small
-        amount.<br /><br />
-        Honey has been praised in the Ayurveda scriptures, Ashtanga Hridayam and
-        Charak Samhita, for its versatile medicinal properties and usage. Several
-        shlokas explain the benefits of consuming honey, like lekhan (fat burner),
-        shodhana (purification/detox), ropana (healing), laxative, yogavahi (drug
-        carrier), and so on..<br /><br />
-        Today, we will closely look at – what are the benefits of eating honey
-        regularly, its uses, and how to consume it in the right way.<br /><br />
-        Alright, let’s begin the journey of understanding honey and its benefits.
-      </p>
-      <a href="#shop" class="btn">Explore Menu<i class="bx bxs-right-arrow"></i></a>
-    </div>
-  </section>
-
-  <!-- About Us (Nutrition) -->
-  <section class="about about-nutrition" id="nutrition">
-    <div class="about-img">
-      <img src="assets/image.png" alt="Honey Nutrition" />
-    </div>
-    <div class="about-text">
-      <h2>Description<br />One tablespoon (20 grams) of honey contains:</h2>
-      <ul class="nutrition-list">
-        <li>1. Calories: 61</li>
-        <li>2. Fat: 0 grams</li>
-        <li>3. Protein: 0 grams</li>
-        <li>4. Carbs: 17 grams</li>
-        <li>5. Fiber: 0 grams</li>
-        <li>6. Copper: 1% of the Daily Value (DV)</li>
-        <li>7. Net weight: 500 grams</li>
+      <ul class="navlist" id="navlist">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#shop">Our Shop</a></li>
+        <li><a href="#location">Our Location</a></li>
       </ul>
-      <a href="#shop" class="btn">Explore Menu<i class="bx bxs-right-arrow"></i></a>
+
+      <div class="nav-icons">
+        <a href="#"><i class="bx bx-search"></i></a>
+        <a href="#" id="cart-icon">
+          <i class="bx bx-cart"></i>
+          <span id="cart-count">0</span>
+        </a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+      </div>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+      <div class="home-text">
+        <h1>WELCOME <span>TO OUR</span> HONEY<br />FARM</h1>
+
+        <a href="#shop" class="btn2">Order Now</a>
+      </div>
+
+      <div class="home-img">
+        <img src="assets/p1.jpeg" alt="Honey Farm" />
+      </div>
+    </section>
+
+    <!-- Shop section-->
+
+    <section class="shop" id="shop">
+      <div class="middle-text">
+        <h4>Our Shop</h4>
+        <h2>Let's Check Popular Products</h2>
+      </div>
+      <div class="shop-content horizontal-scroll">
+        <!-- Repeated Product Cards -->
+        <div class="row">
+          <div class="inside_img">
+            <img src="assets/organic.png" alt="Organic Honey" />
+          </div>
+          <h3>Organic Honey</h3>
+          <p>Pure organic honey with no preservatives.</p>
+          <div class="in-text">
+            <div class="price"><h6>599.00</h6></div>
+            <div class="s-btnn">
+              <a
+                href="#"
+                class="add-cart-btn"
+                data-name="Organic Honey"
+                data-price="599"
+                >Add to Cart</a
+              >
+            </div>
+          </div>
+          <div class="top-icon">
+            <a href="#"><i class="bx bxs-heart"></i></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="inside_img">
+            <img src="assets/organic.png" alt="Organic Honey" />
+          </div>
+          <h3>Organic Honey</h3>
+          <p>Pure organic honey with no preservatives.</p>
+          <div class="in-text">
+            <div class="price"><h6>599.00</h6></div>
+            <div class="s-btnn">
+              <a
+                href="#"
+                class="add-cart-btn"
+                data-name="Organic Honey"
+                data-price="599"
+                >Add to Cart</a
+              >
+            </div>
+          </div>
+          <div class="top-icon">
+            <a href="#"><i class="bx bxs-heart"></i></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="inside_img">
+            <img src="assets/organic.png" alt="Organic Honey" />
+          </div>
+          <h3>Organic Honey</h3>
+          <p>Pure organic honey with no preservatives.</p>
+          <div class="in-text">
+            <div class="price"><h6>599.00</h6></div>
+            <div class="s-btnn">
+              <a
+                href="#"
+                class="add-cart-btn"
+                data-name="Organic Honey"
+                data-price="599"
+                >Add to Cart</a
+              >
+            </div>
+          </div>
+          <div class="top-icon">
+            <a href="#"><i class="bx bxs-heart"></i></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="inside_img">
+            <img src="assets/organic.png" alt="Organic Honey" />
+          </div>
+          <h3>Organic Honey</h3>
+          <p>Pure organic honey with no preservatives.</p>
+          <div class="in-text">
+            <div class="price"><h6>599.00</h6></div>
+            <div class="s-btnn">
+              <a
+                href="#"
+                class="add-cart-btn"
+                data-name="Organic Honey"
+                data-price="599"
+                >Add to Cart</a
+              >
+            </div>
+          </div>
+          <div class="top-icon">
+            <a href="#"><i class="bx bxs-heart"></i></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="inside_img">
+            <img src="assets/organic.png" alt="Organic Honey" />
+          </div>
+          <h3>Organic Honey</h3>
+          <p>Pure organic honey with no preservatives.</p>
+          <div class="in-text">
+            <div class="price"><h6>599.00</h6></div>
+            <div class="s-btnn">
+              <a
+                href="#"
+                class="add-cart-btn"
+                data-name="Organic Honey"
+                data-price="599"
+                >Add to Cart</a
+              >
+            </div>
+          </div>
+          <div class="top-icon">
+            <a href="#"><i class="bx bxs-heart"></i></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="inside_img">
+            <img src="assets/organic.png" alt="Organic Honey" />
+          </div>
+          <h3>Organic Honey</h3>
+          <p>Pure organic honey with no preservatives.</p>
+          <div class="in-text">
+            <div class="price"><h6>599.00</h6></div>
+            <div class="s-btnn">
+              <a
+                href="#"
+                class="add-cart-btn"
+                data-name="Organic Honey"
+                data-price="599"
+                >Add to Cart</a
+              >
+            </div>
+          </div>
+          <div class="top-icon">
+            <a href="#"><i class="bx bxs-heart"></i></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="inside_img">
+            <img src="assets/organic.png" alt="Organic Honey" />
+          </div>
+          <h3>Organic Honey</h3>
+          <p>Pure organic honey with no preservatives.</p>
+          <div class="in-text">
+            <div class="price"><h6>599.00</h6></div>
+            <div class="s-btnn">
+              <a
+                href="#"
+                class="add-cart-btn"
+                data-name="Organic Honey"
+                data-price="599"
+                >Add to Cart</a
+              >
+            </div>
+          </div>
+          <div class="top-icon">
+            <a href="#"><i class="bx bxs-heart"></i></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="inside_img">
+            <img src="assets/organic.png" alt="Organic Honey" />
+          </div>
+          <h3>Organic Honey</h3>
+          <p>Pure organic honey with no preservatives.</p>
+          <div class="in-text">
+            <div class="price"><h6>599.00</h6></div>
+            <div class="s-btnn">
+              <a
+                href="#"
+                class="add-cart-btn"
+                data-name="Organic Honey"
+                data-price="599"
+                >Add to Cart</a
+              >
+            </div>
+          </div>
+          <div class="top-icon">
+            <a href="#"><i class="bx bxs-heart"></i></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="inside_img">
+            <img src="assets/organic.png" alt="Organic Honey" />
+          </div>
+          <h3>Organic Honey</h3>
+          <p>Pure organic honey with no preservatives.</p>
+          <div class="in-text">
+            <div class="price"><h6>599.00</h6></div>
+            <div class="s-btnn">
+              <a
+                href="#"
+                class="add-cart-btn"
+                data-name="Organic Honey"
+                data-price="599"
+                >Add to Cart</a
+              >
+            </div>
+          </div>
+          <div class="top-icon">
+            <a href="#"><i class="bx bxs-heart"></i></a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="inside_img">
+            <img src="assets/organic.png" alt="Organic Honey" />
+          </div>
+          <h3>Organic Honey</h3>
+          <p>Pure organic honey with no preservatives.</p>
+          <div class="in-text">
+            <div class="price"><h6>599.00</h6></div>
+            <div class="s-btnn"><a href="#">Add to Cart</a></div>
+          </div>
+          <div class="top-icon">
+            <a href="#"><i class="bx bxs-heart"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row-btn">
+        <a href="#" class="btn" id="scrollBtn"
+          >All Products<i class="bx bxs-right-arrow"></i
+        ></a>
+      </div>
+    </section>
+
+    <!-- Container -->
+    <section class="container">
+      <div class="container-box">
+        <img src="assets/clock.png" alt="Working Hours" />
+        <h3>9:00 AM - 8:30 PM</h3>
+        <a href="#">Working Hours</a>
+      </div>
+    </section>
+
+    <!-- About Us (Benefits) -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="assets/p2.jpeg" alt="Honey Benefits" />
+      </div>
+      <div class="about-text">
+        <h2>Honey And <br />Its Benefits</h2>
+        <p>
+          Honey is nature’s gift to mankind! A luscious liquid with a golden hue
+          and bitter-sweet taste, it brings numerous health benefits in a small
+          amount.<br /><br />
+          Honey has been praised in the Ayurveda scriptures, Ashtanga Hridayam
+          and Charak Samhita, for its versatile medicinal properties and usage.
+          Several shlokas explain the benefits of consuming honey, like lekhan
+          (fat burner), shodhana (purification/detox), ropana (healing),
+          laxative, yogavahi (drug carrier), and so on..<br /><br />
+          Today, we will closely look at – what are the benefits of eating honey
+          regularly, its uses, and how to consume it in the right way.<br /><br />
+          Alright, let’s begin the journey of understanding honey and its
+          benefits.
+        </p>
+        <a href="#shop" class="btn"
+          >Explore Menu<i class="bx bxs-right-arrow"></i
+        ></a>
+      </div>
+    </section>
+
+    <!-- Scroll to Top -->
+    <a href="#" class="scroll" id="scroll-top">
+      <i class="bx bx-up-arrow-alt"></i>
+    </a>
+    <!-- Location Section -->
+    <section class="location-section" id="location">
+      <div class="middle-text">
+        <h4>Our Location</h4>
+        <h2>Visit Our Honey Farm</h2>
+      </div>
+
+      <div class="location-container">
+        <!-- Google Map -->
+        <div class="map">
+          <iframe
+            src="https://maps.google.com/maps?q=11.040935,77.075482&z=16&output=embed"
+            width="100%"
+            height="350"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+
+        <!-- Location Details -->
+        <div class="location-details">
+          <p><strong>Farm Location:</strong> 11.040935, 77.075482</p>
+          <p>
+            <strong>Address:</strong> Honey Farm, Near XYZ Village, Tamil Nadu,
+            India
+          </p>
+          <p><strong>Phone:</strong> +91 98765 43210</p>
+          <p><strong>Email:</strong> contact@honeyfarm.com</p>
+          <a
+            href="https://www.google.com/maps/dir/?api=1&destination=11.040935,77.075482"
+            class="btn"
+            target="_blank"
+            >Get Directions</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Cart Popup -->
+    <div id="cart-popup" class="cart-popup hidden">
+      <div class="cart-content">
+        <h3>Your Cart (<span id="cart-count">0</span>)</h3>
+        <ul id="cart-items"></ul>
+        <p>Total: ₹<span id="cart-total">0</span></p>
+        <button id="checkout-btn">Checkout</button>
+        <button id="close-cart-btn">Close</button>
+      </div>
     </div>
-  </section>
 
-  <!-- Our Shop -->
-
-
-  <!-- Scroll to Top -->
-  <a href="#" class="scroll" id="scroll-top">
-    <i class="bx bx-up-arrow-alt"></i>
-  </a>
-
-  <!-- JS -->
-  <script src="js/script.js"></script>
-</body>
+    <!-- JS -->
+    <script src="script.js"></script>
+  </body>
 </html>
