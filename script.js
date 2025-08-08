@@ -95,6 +95,6 @@ document.addEventListener("DOMContentLoaded", () => {
     alert(`Thank you for your order! Total: ₹${cartTotal.textContent}`);
     cart = [];
     updateCartUI();
-    cartPopup.classList.add('hidden');
+    // cartPopup.classList.add('hidden');
   });
 });
